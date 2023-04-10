@@ -6,7 +6,7 @@ public class OnlineExamination2 {
 	
 	
 	Scanner sc = new Scanner(System.in);
-    String username = "Rutuja";
+    String username = "Satish";
     int password =5678;
     
     //login
@@ -22,7 +22,7 @@ public class OnlineExamination2 {
         System.out.print("Enter your password:");
         password = sc.nextInt();
         
-        if (username.equals("Rutuja") && password ==5678) {
+        if (username.equals("Satish") && password ==5678) {
             System.out.println("Login Successful");
             menu();
         } else {
